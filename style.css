@@ -1,0 +1,148 @@
+* {
+    border: medium none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    margin: 0 auto;
+    width: 760px;
+	height: 100%;
+}
+
+/*Estilo del menú*/
+#menu {
+    float: left;
+    background-color: #002B5D;
+    width: 250px;
+	height: 100%;
+}
+
+#menu ul{
+	text-align:center;
+	width:250px;
+}
+
+#menu ul li{
+	display:block;
+	float:left;
+	margin-bottom:20px;
+	width:250px;
+}
+
+#menu ul li a {
+	color:#ccc;
+}
+
+#menu ul li a:hover {
+	color:white;
+}
+
+#menu .logouma{
+	margin-bottom:73px;
+	margin-top:40px;
+	width: 78%;
+}
+
+#menu{
+	text-align:center;
+}
+
+/*Fin*/
+
+/*Estilo del main*/
+
+#main {
+    float: right;
+    background-color: #99CCCC;
+    width: 510px;
+	height: 100%;
+}
+
+#main .superior{
+	border-bottom: 1px solid black;
+	float: left;
+	margin: 40px 20px 20px 20px;
+	width: 470px;
+	padding-bottom:20px;
+}
+
+#main .superior .cara{
+	float:right;
+}
+
+#main .superior ul{
+	float:left;
+}
+
+#main ul li{
+	display:block;
+}
+
+#main ul li.nombre{
+	font-size:20px;
+	font-weight:bold;
+	margin-top: 30px;
+}
+
+#main ul li.titulacion{
+	font-size:17px;
+	margin-bottom:40px;
+}
+
+#main ul li.departamento{
+	text-align:center;
+	color:#0369B0;
+}
+
+#main ul li.universidad{
+	text-align:center;
+}
+
+#main .inferior{
+	float:left;
+	margin:20px;
+	width:470px;
+}
+
+#main .inferior ul li {
+    display: inline;
+}
+
+#main ul li img {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#main ul li a {
+	float:left;
+	margin-top:15px;
+}
+
+#main ul li a:hover {
+	color:#0369B0;
+}
+
+#main ul li span{
+	float:left;
+	margin-top:15px;
+}
+
+#main ul li:first-child a {
+	margin-top:5px;
+}
+
+
+/*Fin*/
+
+#separador {
+    clear: both;
+}
